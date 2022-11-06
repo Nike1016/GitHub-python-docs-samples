@@ -1,3 +1,5 @@
 google-cloud-vision==0.35.2
 google-cloud-storage==1.13.2
 Wand==0.5.0
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
