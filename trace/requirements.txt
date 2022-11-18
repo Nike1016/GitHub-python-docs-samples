@@ -1,3 +1,6 @@
 google-cloud-trace==0.20.2
 opencensus==0.2.0
 Flask==1.0.2
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
