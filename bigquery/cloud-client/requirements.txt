@@ -3,3 +3,8 @@ google-auth-oauthlib==0.2.0
 ipython==7.2.0
 matplotlib==3.0.2
 pytz==2018.9
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
