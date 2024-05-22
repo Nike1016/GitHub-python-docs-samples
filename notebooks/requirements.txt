@@ -1,3 +1,4 @@
 google-cloud-storage==1.14.0
 google-cloud-bigquery[pandas,pyarrow]==1.9.0
 matplotlib
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
