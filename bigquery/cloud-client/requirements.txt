@@ -1,5 +1,9 @@
 google-cloud-bigquery[pandas]==1.9.0
 google-auth-oauthlib==0.2.0
-ipython==7.2.0
+ipython==8.10.0
 matplotlib==3.0.2
 pytz==2018.9
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+prompt-toolkit>=3.0.13 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
