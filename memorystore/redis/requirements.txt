@@ -15,3 +15,5 @@ Flask==1.0.2
 gunicorn==19.9.0
 redis==3.1.0
 # [END memorystore_requirements]
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
