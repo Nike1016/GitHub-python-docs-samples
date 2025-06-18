@@ -1,3 +1,5 @@
 google-cloud-storage==1.13.2
 google-auth==1.6.2
 six==1.12.0
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
