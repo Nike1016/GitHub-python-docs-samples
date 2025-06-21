@@ -3,3 +3,5 @@ gunicorn==19.9.0
 google-cloud-vision==0.35.2
 google-cloud-storage==1.13.2
 google-cloud-datastore==1.7.3
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
