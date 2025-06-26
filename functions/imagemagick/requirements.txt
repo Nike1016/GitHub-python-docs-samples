@@ -1,3 +1,5 @@
 google-cloud-vision==0.35.2
 google-cloud-storage==1.13.2
 Wand==0.5.0
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
