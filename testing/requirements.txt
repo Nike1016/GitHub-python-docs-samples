@@ -16,3 +16,4 @@ google-cloud-core==0.29.1
 gcp-devrel-py-tools==0.0.15
 flask==1.0.2
 websocket-client==0.54.0
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
