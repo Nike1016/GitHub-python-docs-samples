@@ -1,3 +1,4 @@
 Flask==1.0.2
 gunicorn==19.9.0
 google-cloud-profiler
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
