@@ -1,1 +1,2 @@
 google-cloud-happybase==0.32.1
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
